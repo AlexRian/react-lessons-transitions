@@ -1,0 +1,44 @@
+.enter {
+  opacity: 0;
+}
+.enterActive {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.enterDone{
+  opacity: 1;
+}
+
+.exit {
+  opacity: 1;
+}
+.exitActive {
+  opacity: 0;
+  transition: opacity 200ms;
+}
+.exitDone {
+  opacity: 0;
+}
+
+
+.detailedEnter {
+  color: black;
+}
+.detailedEnterActive {
+  color: red;
+  transition: color 200ms;
+}
+.detailedEnterDone{
+  color: red;
+}
+
+.detailedExit {
+  color: red;
+}
+.detailedExitActive {
+  color: black;
+  transition: color 200ms;
+}
+.detailedExitDone {
+  color: black;
+}

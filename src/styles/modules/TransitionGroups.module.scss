@@ -1,0 +1,27 @@
+.enter {
+  translate: -100px;
+  opacity: 0;
+}
+.enterActive {
+  translate: 0px;
+  transition: all 500ms;
+  opacity: 1;
+}
+.enterDone{
+  translate: 0px;
+  opacity: 1;
+}
+
+.exit {
+  translate: 0px;
+  opacity: 1;
+}
+.exitActive {
+  translate: 100px;
+  transition: all 500ms;
+  opacity: 0;
+}
+.exitDone {
+  translate: 100px;
+  opacity: 0;
+}
